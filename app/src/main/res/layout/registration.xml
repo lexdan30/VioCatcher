@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        tools:ignore="UselessParent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1"
+            tools:ignore="ScrollViewSize">
+
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="371dp"
+                android:layout_height="130dp"
+                android:scaleX=".8"
+                android:scaleY=".8"
+                android:src="@drawable/login_viologo"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="40dp"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="15dp"
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/edittextstyle"
+                android:textColorHint="#4E311F"
+                android:textColor="#4E311F"
+                tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+            <EditText
+                android:id="@+id/etUsername"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="15dp"
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:hint="Username"
+                android:inputType="text"
+                android:background="@drawable/edittextstyle"
+                android:textColorHint="#4E311F"
+                android:textColor="#4E311F"
+                tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+
+            <EditText
+                android:password="true"
+                android:id="@+id/etPassword"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="60dp"
+                android:layout_marginRight="15dp"
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:hint="Password"
+                android:inputType="text"
+                android:background="@drawable/edittextstyle"
+                android:textColorHint="#4E311F"
+                android:textColor="#4E311F"
+                tools:ignore="Deprecated,HardcodedText,ObsoleteLayoutParam" />
+
+            <EditText
+                android:password="true"
+                android:id="@+id/etPassword2"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="-50dp"
+                android:layout_marginBottom="60dp"
+                android:layout_marginRight="15dp"
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:hint="Confirm Password"
+                android:inputType="text"
+                android:background="@drawable/edittextstyle"
+                android:textColorHint="#4E311F"
+                android:textColor="#4E311F"
+                tools:ignore="Deprecated,HardcodedText,ObsoleteLayoutParam" />
+            <Button
+                android:text="SignUp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:id="@+id/btnSigUp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="-50dp"
+                android:background="#FF8C00"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

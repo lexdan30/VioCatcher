@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1"
+            tools:ignore="ScrollViewSize">
+
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="371dp"
+                android:layout_height="130dp"
+                android:scaleX=".9"
+                android:scaleY=".9"
+                android:src="@drawable/login_viologo"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="70dp"
+                tools:ignore="ContentDescription,ObsoleteLayoutParam" />
+
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="15dp"
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:hint="Email"
+                android:inputType="text"
+                android:background="@drawable/edittextstyle"
+                android:textColorHint="#FF8C00"
+                android:textColor="#FF8C00"
+                tools:ignore="HardcodedText,ObsoleteLayoutParam" />
+            <EditText
+                android:password="true"
+                android:id="@+id/edtPassword"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginRight="15dp"
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:hint="Password"
+                android:inputType="text"
+                android:background="@drawable/edittextstyle"
+                android:textColorHint="#FF8C00"
+                android:textColor="#FF8C00"
+                tools:ignore="Deprecated,HardcodedText,ObsoleteLayoutParam" />
+
+            <Button
+                android:text="Login"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:id="@+id/btnLogin"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FF8C00"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/tvSignup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="No account yet? Create one"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:textColor="#FF8C00"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="60dp"
+                tools:ignore="HardcodedText,SpUsage" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

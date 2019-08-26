@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1043933993150-apk6v0otk6fsn4m1c79pn5q9pftikckj.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://viocatcher.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1043933993150</string>
+    <string name="google_api_key" translatable="false">AIzaSyADYD-wzInBQIPv3UWqqG1fT1A2fKQwIjc</string>
+    <string name="google_app_id" translatable="false">1:1043933993150:android:4eebe3ed0a30c493</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyADYD-wzInBQIPv3UWqqG1fT1A2fKQwIjc</string>
+    <string name="google_storage_bucket" translatable="false">viocatcher.appspot.com</string>
+</resources>

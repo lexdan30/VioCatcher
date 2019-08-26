@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Administrator\\Downloads\\Android Projects\\VioCatcher\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_navigation_drawer.xml",
+        "source": "C:\\Users\\Administrator\\Downloads\\Android Projects\\VioCatcher\\app\\src\\main\\res\\menu\\activity_navigation_drawer.xml"
+    },
+    {
+        "merged": "E:\\Alex Proj\\Android Projects\\VioCatcher\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_navigation_drawer.xml",
+        "source": "E:\\Alex Proj\\Android Projects\\VioCatcher\\app\\src\\main\\res\\menu\\activity_navigation_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Downloads\\Android Projects\\VioCatcher\\app\\build\\intermediates\\res\\merged\\debug\\menu\\navigation.xml",
+        "source": "C:\\Users\\Administrator\\Downloads\\Android Projects\\VioCatcher\\app\\src\\main\\res\\menu\\navigation.xml"
+    },
+    {
+        "merged": "E:\\Alex Proj\\Android Projects\\VioCatcher\\app\\build\\intermediates\\res\\merged\\debug\\menu\\navigation.xml",
+        "source": "E:\\Alex Proj\\Android Projects\\VioCatcher\\app\\src\\main\\res\\menu\\navigation.xml"
+    }
+]
